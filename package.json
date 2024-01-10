@@ -4,7 +4,7 @@
   "description": "Youtube Ysal Infotainment Mocha unit testing tutorial 2023",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha './specs/*.spec.js'"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/ftanekha/yt-Ysal-Mocha-Tutotrial#readme",
   "devDependencies": {
+    "chai": "^5.0.0",
     "mocha": "^10.2.0"
-  }
+  },
+  "type": "module"
 }

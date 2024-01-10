@@ -1,4 +1,4 @@
-class myClass{
+class MyClass{
     constructor(){
         console.log('initiate')
     }
@@ -10,4 +10,4 @@ class myClass{
     }
 }
 
-module.exports = myClass
+export default MyClass
