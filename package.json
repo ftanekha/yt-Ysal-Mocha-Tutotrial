@@ -29,7 +29,8 @@
   "homepage": "https://github.com/ftanekha/yt-Ysal-Mocha-Tutotrial#readme",
   "devDependencies": {
     "chai": "^5.0.0",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1"
   },
   "type": "module"
 }

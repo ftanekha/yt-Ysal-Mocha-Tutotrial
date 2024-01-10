@@ -8,6 +8,11 @@ class MyClass{
         result = arg1 + arg2
         return result
     }
+
+    callAnotherFunction(arg1, arg2){
+        const result = this.add(arg1, arg2)
+        return result
+    }
 }
 
 export default MyClass
